@@ -147,41 +147,41 @@ const techStackIcons = [
 
 const expCards = [
   {
-    review: "Pavan brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
+    review: "Pavan demonstrated strong analytical and technical abilities throughout his B.Tech journey, actively contributing to various academic and technical projects.",
     imgPath: "/images/exp1.png",
     logoPath: "/images/logo1.png",
-    title: "Frontend Developer",
-    date: "January 2023 - Present",
+    title: "B.Tech - Computer Science (AI & ML)",
+    date: "October 2021 - Present",
     responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
+      "Pursuing Computer Science with a specialization in AI & ML at Vasireddy Venkatadri Institute of Technology.",
+      "Built academic projects focused on full-stack development and AI applications.",
+      "Actively participated in hackathons, coding competitions, and research-oriented activities.",
     ],
   },
   {
-    review: "Pavan’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
+    review: "Pavan has been a consistent and valuable contributor to Wikimedia projects. His open-source contributions are impactful, well-documented, and community-focused.",
     imgPath: "/images/exp2.png",
     logoPath: "/images/logo2.png",
-    title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
+    title: "Open Source Developer",
+    date: "June 2023 - Present",
     responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
+      "Contributed to Wikimedia’s open-source repositories by fixing bugs, improving UI, and writing scalable code.",
+      "Collaborated with global contributors, reviewed pull requests, and followed open-source best practices.",
+      "Wrote comprehensive documentation and participated in issue discussions to improve project direction.",
     ],
   },
   {
-    review: "Pavan’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
+    review: "As a freelancer, Pavan delivered high-quality full-stack solutions tailored to client needs. He was proactive, deadline-driven, and technically sound in all engagements.",
     imgPath: "/images/exp3.png",
     logoPath: "/images/logo3.png",
-    title: "React Native Developer",
-    date: "March 2019 - May 2020",
+    title: "Freelance Full Stack Developer",
+    date: "April 2022 - Present",
     responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
-      "Coordinated with the product team to implement features based on feedback.",
+      "Developed custom websites and web applications for startups and local businesses.",
+      "Used technologies like React, Next.js, Node.js, MongoDB, and Tailwind CSS to build performant UIs and robust backends.",
+      "Handled deployment, SEO, and client communication independently, delivering end-to-end solutions.",
     ],
-  },
+  }
 ];
 
 const expLogos = [
@@ -201,65 +201,70 @@ const expLogos = [
 
 const testimonials = [
   {
-    name: "Mohan Reddy",
-    mentions: "@estherhoward",
+    name: "Rahul Verma",
+    mentions: "@rahulverma",
     review:
-      "I can’t say enough good things about Pavan. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
+      "Working with Pavan on a freelance SaaS project was a great experience. He single-handedly built the frontend using Next.js and Tailwind, and handled the backend integrations flawlessly. His commitment to timelines and quality stood out.",
     imgPath: "/images/client1.png",
   },
   {
-    name: "Wade Warren",
-    mentions: "@wadewarren",
+    name: "Sana Iqbal",
+    mentions: "@sana.codes",
     review:
-      "Working with Pavan was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
-    imgPath: "/images/client3.png",
-  },
-  {
-    name: "Guy Hawkins",
-    mentions: "@guyhawkins",
-    review:
-      "Collaborating with Pavan was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Pavan's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Pavan is the ideal partner.",
+      "Pavan contributed to our open-source Wikimedia initiative with such clarity and consistency. His pull requests were always well-documented, and his ability to grasp project requirements without micromanagement was impressive.",
     imgPath: "/images/client2.png",
   },
   {
-    name: "Marvin McKinney",
-    mentions: "@marvinmckinney",
+    name: "Karthik Ramesh",
+    mentions: "@karthik.dev",
     review:
-      "Pavan was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
-    imgPath: "/images/client5.png",
+      "I collaborated with Pavan during a GDSC hackathon. His knowledge of full-stack tools, especially MongoDB, Express, and React, helped us build a solid MVP in record time. He’s a team player and a great problem solver.",
+    imgPath: "/images/client3.png",
   },
   {
-    name: "Floyd Miles",
-    mentions: "@floydmiles",
+    name: "arjun",
+    mentions: "@arjun.sharma",
     review:
-      "Pavan’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
+      "Pavan redesigned our NGO’s website from scratch as part of his freelance work. The final result was clean, responsive, and fast. He even guided us on SEO and basic analytics. A full-stack powerhouse!",
     imgPath: "/images/client4.png",
   },
   {
-    name: "Albert Flores",
-    mentions: "@albertflores",
+    name: "Amit Joshi",
+    mentions: "@amit_js",
     review:
-      "Pavan was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
+      "As a mentor in a student developer program, I’ve seen Pavan grow rapidly. From open-source contributions to complex backend logic, his passion for learning and execution speed is next level.",
+    imgPath: "/images/client5.png",
+  },
+  {
+    name: "Rahul",
+    mentions: "@Rahul2432",
+    review:
+      "Pavan helped us build a portfolio site with animations, blogs, and CMS integration. He was clear in communication and quick with iterations. His frontend work is clean and pixel-perfect.",
     imgPath: "/images/client6.png",
   },
 ];
 
+
 const socialImgs = [
   {
-    name: "insta",
+    name: "GitHub",
     imgPath: "/images/insta.png",
+    url: ""
   },
   {
-    name: "fb",
+    name: "Leetcode",
     imgPath: "/images/fb.png",
+    url: "https://github.com/PavanBollepalli"
   },
   {
-    name: "x",
+    name: "Wellfound",
     imgPath: "/images/x.png",
+    url: "https://wellfound.com/u/pavan-venkata-naga-manoj-bollepalli"
   },
   {
     name: "linkedin",
     imgPath: "/images/linkedin.png",
+    url: "https://www.linkedin.com/in/pavan-bollepalli/"
   },
 ];
 

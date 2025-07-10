@@ -41,15 +41,26 @@ const NavBar = () => {
             ))}
           </ul>
         </nav>
-
-        <a href="#contact" className="contact-btn group">
+        {/* <a
+          href="https://drive.google.com/file/d/1eMeka-SzzP5Kpkr2yK3bcnRVDgJAm1DO/view?usp=drive_link"
+          className="contact-btn group"
+        >
           <div className="inner">
-            <span>Contact me</span>
+            <span>Resume</span>
+          </div>
+        </a> */}
+        <a
+          href="https://drive.google.com/file/d/1eMeka-SzzP5Kpkr2yK3bcnRVDgJAm1DO/view?usp=drive_link"
+          className="contact-btn group"
+          target="_blank"
+        >
+          <div className="inner">
+            <span>Resume</span>
           </div>
         </a>
       </div>
     </header>
   );
-}
+};
 
 export default NavBar;
