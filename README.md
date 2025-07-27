@@ -29,6 +29,6 @@ This is my interactive 3D portfolio built with **React Three Fiber**, **Three.js
 ## ⚙️ Setup
 
 ```bash
-git clone https://github.com/PavanBollepalli/pavan-s-portfolio.git
+git clone https://github.com/PavanBollepalli/3-d-portfolio.git
 cd 3d-portfolio
 npm install
