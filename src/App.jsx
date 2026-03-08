@@ -1,3 +1,4 @@
+import { Routes, Route } from "react-router-dom";
 import Testimonials from "./sections/Testimonials";
 import Footer from "./sections/Footer";
 import Contact from "./sections/Contact";
@@ -8,8 +9,9 @@ import ShowcaseSection from "./sections/ShowcaseSection";
 import LogoShowcase from "./sections/LogoShowcase";
 import FeatureCards from "./sections/FeatureCards";
 import Navbar from "./components/NavBar";
+import SkillVector from "./pages/projects/SkillVector";
 
-const App = () => (
+const Home = () => (
   <>
     <Navbar />
     <Hero />
@@ -22,6 +24,13 @@ const App = () => (
     <Contact />
     <Footer />
   </>
+);
+
+const App = () => (
+  <Routes>
+    <Route path="/" element={<Home />} />
+    <Route path="/projects/skillvector" element={<SkillVector />} />
+  </Routes>
 );
 
 export default App;
